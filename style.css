@@ -1,0 +1,28 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for screens with a maximum width of 600 pixels */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
