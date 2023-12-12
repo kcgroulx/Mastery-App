@@ -1,0 +1,19 @@
+/* TodoForm.css */
+/* Placeholder CSS, you can customize this based on your design preferences */
+.todo-form {
+    margin-bottom: 16px;
+}
+
+.todo-form-input {
+    padding: 8px; /* Increase padding for a larger input box */
+    margin-right: 8px;
+    width: 100px; /* Set the width to your desired size */
+}
+
+.todo-form-button {
+    padding: 8px;
+    width: 38px;
+    height: 38px;
+    border-radius: 20%;
+    font-size: 20px;
+}
