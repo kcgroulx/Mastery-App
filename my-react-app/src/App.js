@@ -1,30 +1,25 @@
 // App.js
-import React, { useState } from 'react';
-import Todo from './components/Todo';
-import TodoForm from './components/TodoForm';
+import React, { useState } from 'react'
+import Todo from './components/Todo'
+import TodoForm from './components/TodoForm'
+import Greet from './components/Greet'
+import Welcome from './components/Welcome'
+import Hello from './components/Hello'
+import Message from './components/Message'
+import Counter from './components/Counter'
 import './App.css'
+import FunctionClick from './components/FunctionClick'
+import ClassClick from './components/ClassClick'
+import EventBind from './components/EventBind'
+import ParentComponent from './components/ParentComponent'
+import UserGreeting from './components/UserGreeting'
+import NameList from './components/NameList'
 
 function App() {
-  const [todos, setTodos] = useState([
-    { text: 'Learn React', id: 1 },
-    { text: 'Build a Todo App', id: 2 },
-  ]);
-
-  const addTodo = (task) => {
-    const newTodo = {
-      text: task,
-      id: Date.now(),
-    };
-    setTodos([...todos, newTodo]);
-  };
 
   return (
     <div className="App">
-      <h1>Todo App</h1>
-      {todos.map((todo) => (
-        <Todo key={todo.id} todo={todo} />
-      ))}
-      <TodoForm addTodo={addTodo} />
+      <NameList/>
     </div>
     
 );
